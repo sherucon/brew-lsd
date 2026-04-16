@@ -474,7 +474,7 @@ func (m model) listView() string {
 			}
 		}
 	}
-	b.WriteString(styleTitle.Render("🍺  Brew Search") + "\n")
+	b.WriteString(styleTitle.Render("🍺  Brew LSD") + "\n")
 	b.WriteString(styleMuted.PaddingLeft(2).Render(fmt.Sprintf(
 		"%d formulas · %d casks · %s leaves",
 		nFormulas, nCasks,
